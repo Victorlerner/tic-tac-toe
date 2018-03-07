@@ -1,0 +1,168 @@
+
+/*************************************************************************************************************** COMMON_STYLES */
+html, body, div, h1, h2, h3, h4, h5, h6, a, a img, p, ul, ol, li, span, fieldset , form, dl, dd, dt, table, tr, td, img{
+    border: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+html{
+    height:100%;
+    background: #000;
+}
+
+body{
+    height:100%;
+    position: relative;
+    background: #4132b0;
+
+    font: normal 10px arial, sans-serif;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus { outline: none; }
+
+textarea{
+    resize: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    zoom:1;
+}
+
+.clear{
+    clear: both;
+}
+
+.hide{
+    display: none;
+}
+
+.wrapped{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+input::-webkit-input-placeholder {
+    color: #0096ef;
+}
+
+input:-moz-placeholder {
+    color: #0096ef;
+}
+
+/*************************************************************************************************************** GLOBAL_layout */
+
+/*************************************************************************************************************** GLOBAL_blocks */
+.game{
+    /*	position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;*/
+    z-index: 10;
+    position: relative;
+    background: #4132b0;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.messager{
+    width: 100%;
+    height: auto;
+
+    font: 20px arial, sans-serif;
+    color: #fff;
+}
+
+.messager_unit{
+
+}
+
+.informer{
+    width: 100%;
+    margin-bottom: 20px;
+
+    font: 16px arial, sans-serif;
+    color: #fff;
+}
+
+.informer td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.informer .label{
+    width: 75%;
+    padding: 10px;
+}
+
+.informer .value{
+    width: 25%;
+
+    text-align: center;
+}
+
+.hi_score{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+
+    text-align: center;
+    color: #ccc;
+    font: 12px arial, sans-serif;
+}
+
+.level_begin_label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: #000;
+    padding-top: 20px;
+
+    color: #fff;
+    text-align: center;
+    font: 20px arial, sans-serif;
+}
+
+.any_key_invitation{
+    margin-top: 10px;
+
+    font-size: 16px;
+}
+
+.field{
+    position: relative;
+    background: #b79730;
+    margin-bottom: 20px;
+}
+
+.cell{
+    position: absolute;
+    border: 2px solid #3a3dd1;
+    overflow: hidden;
+
+
+}
+
+
